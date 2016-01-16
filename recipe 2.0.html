@@ -7,16 +7,18 @@
 		<script src="script.js"></script>
 	</head>
 	<body>
-		<div class="nav">
+	<!-- I have used a container divs to organize the elements.-->	
+		<div class="nav">	<!-- This div is used for the Recipe heading and the button to hide and display images-->
 			<div class="container">
 				<h1>One-Pan Curried Chicken</h1>
 				<button>Hide Images</button>
 			</div>
 		</div>
 
-		<div class="summary">
+		<div class="summary"> <!-- This div contains a brief summary about the dish we are going to prepare along with the list of ingredients we will be using-->
 			
 			<div class="container">
+				<!-- Brief description about the dish-->
 				<section>A mouth-watering meal that's ready in 40 minutes, our easy chicken curry is perfect served alongside <em>basmati rice</em> and <em>naan bread</em>.
 				</section>
 				<br>
@@ -24,6 +26,7 @@
 				<p>40 Min Total Time</p>
 				<p>6 Servings</p>					
 				<div class="ingredients">
+					<!-- User can use the checkbox to mark the ingredients they have-->
 					<h2>Ingredients</h2>
 					<ul>
 						<li id="1"><input type="checkbox" id="1" />1 tablespoon ghee, coconut oil or olive oil</li>
@@ -38,6 +41,7 @@
 						<li><h3>For Seasoning : </h3></li>
 						<li id="10"><input type="checkbox" id="10" />1 cup coarsely chopped fresh cilantro</li>
 					</ul>
+					<!-- Few images of the ingredients used.-->
 					<div class="image_2">
 						<img src="http://couponclippingcook.com/wp-content/uploads/2012/01/3-cut-red-bell-pepper.jpg" />
 					</div>
@@ -51,16 +55,17 @@
 						<img src="http://ih.constantcontact.com/fs052/1109342298262/img/53.jpg?a=1111183482679" />
 					</div>
 				</div>
+				<!-- Image of the dish we are going to make.-->
 				<div class="image">
 					<img src="http://images.edge-generalmills.com/d1869a8c-b9e5-4194-b8c2-4728fe9e1a2c.jpg" />
 				</div>
 			</div>
 		</div>
 
-		<div class="directions">
+		<div class="directions"> <!-- Directions to prepare the dish-->
 			<div class="container">	
 				<img src="https://i.kinja-img.com/gawker-media/image/upload/s--PPP2VAX3--/c_fill,fl_progressive,g_north,h_358,q_80,w_636/192l1ncf5l2yqjpg.jpg" />
-				<h2>Directions</h2>
+				<h2>Directions</h2> <!-- Users can select the step they are on-->
 				<ol>
 					<li id="1">Heat oven to 450°F. Grease 16x11-inch roasting pan or 15x10x1-inch pan with 1 tablespoon ghee, coconut oil or olive oil.</li>
 					<li id="2">Arrange cauliflower, carrots, bell pepper and gingerroot in pan. Sprinkle with 2 teaspoons of the curry powder and 1 teaspoon of the salt; toss.</li>
@@ -68,7 +73,7 @@
 					<li id="4">Roast 20 minutes. Remove pan from oven; add green onions, tossing to mix. Return to oven; roast 10 minutes longer or until juice of chicken is clear when thickest part is cut to bone (<strong>at least 165°F</strong>).</li>
 					<li id="5">Just before serving, sprinkle chicken and vegetables with cilantro.</li>
 				</ol>
-				<button>Reset</button>
+				<button>Reset</button> <!-- A button to reset the direction list-->
 			</div>
 		</div>
 	</body>
