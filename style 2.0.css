@@ -1,3 +1,4 @@
+/* nav class is used to set the background for the main heading and the button used to hide and display images */
 .nav {
 	background-image: url('http://www.beckfordsilk.co.uk/wp-content/uploads/2014/07/Bottle-Green4.jpg');
 	background-repeat: no-repeat;
@@ -6,7 +7,7 @@
 	margin-top: -25px;
 	width: 100%;
 }
-
+/* below styling is used for the main heading*/
 .nav h1 {
   color: #fff;
   font-weight: bold;
@@ -16,13 +17,13 @@
   position: relative;
   top: 23px;
 }
-
+/* below class is used to align the button used to hide and display images inside the conatiner div along with the main heading */
 .nav button {
   display: inline;
   float: right;
   width: 100px;
 }
-
+/* below class is used ti set the background for the summary div, which contains the summary, ingredient list and the images */
 .summary {
   height: 660px;
   width: 100%;
@@ -30,14 +31,14 @@
   background-image: url('https://performancemarks.files.wordpress.com/2013/06/quiet-cream-satin.jpg');
   background-repeat: no-repeat;
 }
-
+/* below class is used to position the container inside the summary div */
 .summary .container {
   position: relative;
   top: 30px;
   left: 10px;
   right: 10px;
 }
-
+/* below class is used to give styling to the section tag inside the summary div */
 .summary section {
   color: #800000;
   font-size: 20px;  
@@ -45,7 +46,7 @@
   text-align: center;
   margin-right: 15px;
 }
-
+/* below class is used to give styling to the paragraph tag inside the summary div */
 .summary p {
 	display: inline;
 	font-size: 20px;
@@ -54,24 +55,24 @@
 	font-family: cursive;
 	margin-bottom: 50px;
 }
-
+/* below class is used to change the background color of the paragraph tag inside the summary div when the mouse hovers over it */
 .summary p:hover {
 	background-color: yellow;
 }
-
+/* below class is used to give styling to the h2 tag inside the summary div */
 .summary h2 {
 	color: #092E20;
 	font-family: sans-serif;
 	text-transform: uppercase;
 }
-
+/* below class is used to give styling to the li tag inside the summary div */
 .summary li {
 	font-size: 20px;
 	color: #234F32;
 	list-style-type: none;
 	margin-left: -15px;
 }
-
+/* below class is used to give styling and set the size for the div which is used for the main image of the dish we are going to prepare */
 .summary .image {
 	height: 490px;
 	width: 730px;
@@ -84,24 +85,24 @@
 	box-shadow: 5px 5px 5px #888888;
 	margin-top: 10px;
 }
-
+/* below class is used to set the size of the main image */
 .image img {
 	height: 490px;
 	width: 730px;
 }
-
+/* below class is used to create a zoom-in effect when the mouse hovers over the main image */
 .image img:hover {
 	height: 640px;
 	width: 850px;
 }
-
+/* below class is used to give styling to the igredients div inside the summary div */
 .summary .ingredients {
 	float: left;
 	height: 450px;
 	width: 450px;
 	margin-top: 10px;
 }
-
+/* below class is used to give styling to the images tag inside the igredients div */
 .ingredients img {
 	height: 100px;
 	width: 100px;
@@ -110,7 +111,7 @@
 	margin-top: 20px;
 	box-shadow: 5px 5px 5px #888888;
 }
-
+/* below class is used to increase the size of the images inside the ingredients div */
 .ingredients img:hover {
 	position: absolute;
 	z-index: 1;
@@ -118,13 +119,13 @@
 	width: 200px;
 	margin-top: -35px;
 }
-
+/* below class is used to give styling to the div tag used for the images inside the ingredients div */
 .ingredients .image_2 {
 	display: inline-block;
 	height: 106px;
 	width: 106px;
 }
-
+/* below class is used to set a background for the directions div */
 .directions {
 	background-image: url('http://www.beckfordsilk.co.uk/wp-content/uploads/2014/07/Bottle-Green4.jpg');
 	background-repeat: no-repeat;
@@ -133,25 +134,25 @@
 	height: 300px;
 	width: 100%;
 }
-
+/* below class is used to give styling to the h2 tag inside the directions div */
 .directions h2 {
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 }
-
+/* below class is used to give styling to the li tag inside the directions div */
 .directions li {
 	color: #fff;
 	margin-top: 5px;
 }
-
+/* below class is used to position the container div inside the directions div */
 .directions .container {
   position: relative;
   top: 50px;
   left: 20px;
   width: 95%;
 }
-
+/* below class is used to set the size for the image inside the directions div */
 .directions img {
 	height: 180px;
 	width: 180px;
@@ -159,12 +160,12 @@
 	border: 3px solid black;
 	float: right;
 }
-
+/* below class is used to give a tilting effect to the image inside the directions div when mouse hovers over it */
 .directions img:hover {
 	transition-delay: .3s;
     transform: rotate(-15deg);
 }
-
+/* below class is used to position the button tag inside the directions div */
 .directions button {
     float: right;
     position: relative;
